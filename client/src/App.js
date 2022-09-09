@@ -1,12 +1,14 @@
 import './App.css';
 
-import Router from './config/Routes'
+import RouteSetup from './config/Routes';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <h1>Get Cyberpunk'd</h1>
-      <Router />
+      <RouteSetup />
     </div>
   );
 }

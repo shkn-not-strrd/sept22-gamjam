@@ -4,7 +4,7 @@ import Profile from '../pages/Profile';
 import Signup from '../pages/Signup';
 import Login from '../pages/Login';
 
-function Router() {
+function RouteSetup() {
   return(
     <Routes>
       <Route path="/" element={<Home />} />
@@ -15,4 +15,4 @@ function Router() {
   )
 }
 
-export default Router;
+export default RouteSetup;
