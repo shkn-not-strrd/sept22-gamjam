@@ -1,11 +1,9 @@
-import Counter from './components/Counter'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <p>Hullo</p>
-      <Counter />
+      <p>Get Cyberpunk'd</p>
     </div>
   );
 }
